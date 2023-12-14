@@ -111,3 +111,54 @@ body{
 .weather{
     display: none;
 }
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive styles for the footer */
+@media only screen and (max-width: 600px) {
+  footer {
+    padding: 15px;
+  }
+
+  .social-media {
+    flex-wrap: wrap;
+  }
+
+  .social-media a {
+    margin: 5px;
+  }
+
+  .social-media img {
+    width: 25px;
+    height: 25px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
