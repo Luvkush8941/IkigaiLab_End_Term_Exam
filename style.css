@@ -113,14 +113,8 @@ body{
     display: none;
 }
 
-.carousel {
-
-   width: 50%;
-    height: 200px;
-    
-}
 
 .carousel-item img {
-    width: 200px;
+    width: 50%;
     height: 100px;
 }
