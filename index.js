@@ -34,7 +34,7 @@ async function checkWeather(city){
 
         document.querySelector(".weather").style.display = "block";
 
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + city + "')";
+        // document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + city + "')";
 
     } catch (error) {
         alert("Location not found"); 
